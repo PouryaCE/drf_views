@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}method not allowed {% endblock title %}
+{% block content %}
+<center>
+    <h1> Sorry method not allowed | {{ method }}</h1>
+    <h3>user: {{ user }}</h3>
+    <p>{{ date|date }}</p>
+</center>
+{% endblock content %}
